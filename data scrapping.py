@@ -382,7 +382,7 @@ while current_date <= end_date:
         response = requests.get(url)
         
         if response.status_code == 200:
-            filename = f"{current_date_str}_EL-XBID.xlsx"
+            filename = f"{current_date_str}_EL-IDA1.xlsx"
             filepath = os.path.join(download_dir, filename)
             
             with open(filepath, 'wb') as file:
@@ -420,7 +420,7 @@ while current_date <= end_date:
         response = requests.get(url)
         
         if response.status_code == 200:
-            filename = f"{current_date_str}_EL-XBID.xlsx"
+            filename = f"{current_date_str}_EL-IDA2.xlsx"
             filepath = os.path.join(download_dir, filename)
             
             with open(filepath, 'wb') as file:
@@ -459,7 +459,7 @@ while current_date <= end_date:
         response = requests.get(url)
         
         if response.status_code == 200:
-            filename = f"{current_date_str}_EL-XBID.xlsx"
+            filename = f"{current_date_str}_EL-IDA3.xlsx"
             filepath = os.path.join(download_dir, filename)
             
             with open(filepath, 'wb') as file:
