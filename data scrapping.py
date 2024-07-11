@@ -5,6 +5,9 @@ Created on Thu Apr  4 15:31:53 2024
 @author: Eleni
 Instructions
 https://www.enexgroup.gr/documents/20126/353610/YYYYMMDD_EL-CRIDAs_PrelimResults_EN_v%23%23%28Documentation%2C+English+version%29.pdf/0618b46d-6f1e-2a9b-5828-01e992aff409?t=1631791193051
+
+CRIDAs are no longer in use-IDAs took their place
+
 """
 
 import requests
